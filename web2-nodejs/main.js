@@ -10,6 +10,7 @@ var app = http.createServer(function(request, response){
         return response.writeHead(404);
     }
     response.writeHead(200);
+    console.log(__dirname +url);//웹 브라우저가 요청한 파일의 경로를 콘솔에 출력하는 명령 추가
     response.end(fs.readFileSync(__dirname + url));
 });
 app.listen(3000);
