@@ -1,5 +1,5 @@
-// 변수 선언 후 값 대입
-a = 1;
-console.log(a); // a 변수 선언 후 숫자 1 대입
-a = 2;
-console.log(a); // a 변수에 숫자 2 대입
+// let 키워드로 변수 선언
+let a = 1; // let 키워드로 변수를 선언한 후 숫자 1을 대입
+console.log(a); 
+a = 2;// a 변수에 숫자 2를 대입
+console.log(a); 
